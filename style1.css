@@ -1,0 +1,192 @@
+.logo{
+    text-decoration:  none;
+    color:khaki;
+    font-size: large;
+padding-left: 63px;
+}
+
+
+
+#home{
+color:khaki;
+}
+
+    .navbar {
+        background-color: rgb(66, 65, 65);
+        margin: 0px, 0px;
+        border-radius: 5px;
+      
+    }
+
+    .navbar ul {
+
+        overflow: auto;
+        padding: 15px;
+        margin-bottom: 0px;
+        position: sticky;
+    }
+
+    .navbar li {
+
+        float: right;
+        list-style: none;
+         padding: 12px, 23px;
+       
+
+
+    }
+
+    .navbar li a {
+
+        color: white;
+        padding: 11px 14px;
+        text-decoration: none;
+
+    }
+
+    .item:hover {
+        color: rgb(233, 36, 22);
+    }
+    #home:hover{
+        color: rgb(241, 19, 19);
+    }
+    .content{
+        font-size: medium;
+        padding: 20px , 30px;
+        margin: 134px ;
+        
+        padding: 20px;
+text-align: right;
+
+
+    }
+    #contentp{
+        text-align: left;
+        font-size: xx-large;
+        grid-row-start: 1;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 500px;
+        align-content: center;
+    
+
+    }
+    .flex-item{
+        
+        width: 295px;
+        height: 162px;
+background-color : rgb(255, 254, 251);
+border : 2px solid rgb(12, 12, 12);
+border-radius: 15px;
+text-align: center;
+padding: 90px;
+transition:background-color 0.3s ease-in-out ;
+
+
+       
+    }
+    #item-1:hover{
+        height: 180px;
+        width:310px;
+        background-color: rgb(238, 201, 158);
+        
+    }
+    #item-2:hover{
+        height: 180px;
+        width:310px;
+        background-color:   rgb(238, 201, 158) ;
+    }
+    #item-3:hover{
+        height: 180px;
+        width:310px;
+        background-color:   rgb(238, 201, 158) ;
+    }
+    #item-1{
+        margin:15px;
+    }
+    #item-2{
+        margin:15px;
+    }
+    #item-3{
+        margin:15px;
+    }
+    
+    .aboutus{
+
+        text-align: center;
+        background-color: rgb(112, 110, 110);
+    }
+    .aboutus h2{
+        font-size: xx-large;
+    }
+    .handle{
+        float: right;
+    }
+    .address{
+        display:flex;
+        text-align: left;
+        padding-left: 90px;
+        background-color: rgb(112, 110, 110);
+    }
+  
+    .uselink{
+    flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 300px;
+
+    }
+    .uselink li a{
+        color:rgb(12, 12, 12);
+        text-decoration: none;
+        font-size: small;
+
+    }
+    .uselink li :hover{
+        color :rgb(233, 36, 22);
+    }
+    footer{
+        background-color: black;
+        color: white;
+     
+    }
+    footer p{
+        margin-top: 0px;
+        padding: 34px;
+    }
+    .search{
+        padding-left: 448px;
+        text-align: center;
+    }
+    .address input{
+        border: 2px solid black;
+        border-radius: 5px;
+    padding: 7px;
+    width: 215px;
+    }
+    .btn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: chartreuse;
+        padding: 6px;
+        border:none;
+        cursor: pointer;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        color: cornsilk;
+        background-color: darkgoldenrod;
+        border: 2px solid black;
+    }
+    .icon{
+        float: right;
+        padding: 4px;
+        
+    }
+    
+       
+
